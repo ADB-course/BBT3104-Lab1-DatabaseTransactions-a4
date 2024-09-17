@@ -77,7 +77,7 @@ SELECT * FROM orderdetails WHERE orderNumber = @orderNumber
 END
 
 ## Support for the Sales Departments' Report
-Create a Payment Schedule Table
+1. Create a Payment Schedule Table
 New Table: payment_schedule
 Create a separate table that tracks individual payments made for each order. This would allow the system to record multiple payments against a single order, along with the dates, amounts, and remaining balance.
 
