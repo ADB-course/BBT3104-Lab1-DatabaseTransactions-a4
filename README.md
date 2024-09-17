@@ -81,10 +81,6 @@ Create a Payment Schedule Table
 New Table: payment_schedule
 Create a separate table that tracks individual payments made for each order. This would allow the system to record multiple payments against a single order, along with the dates, amounts, and remaining balance.
 
-Example schema:
-
-sql
-Copy code
 CREATE TABLE payment_schedule (
     scheduleID INT PRIMARY KEY AUTO_INCREMENT,
     orderNumber INT,
